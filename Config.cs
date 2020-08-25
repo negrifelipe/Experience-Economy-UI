@@ -1,4 +1,3 @@
-﻿using JetBrains.Annotations;
 using Rocket.API;
 
 namespace F.ExperienceUI
