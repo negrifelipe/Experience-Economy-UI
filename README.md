@@ -3,6 +3,8 @@ This is a free experience/economy ui for your server. It also adds the name of y
 
 WorkShopMod: https://steamcommunity.com/sharedfiles/filedetails/?id=2208661644
 
+F.Plugins Discord: https://discord.gg/8zded6r
+
 # Configuration file
 ```
 <?xml version="1.0" encoding="utf-8"?>
