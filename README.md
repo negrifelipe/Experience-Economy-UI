@@ -1,6 +1,7 @@
 # Experience-Economy-UI
 This is a free experience/economy ui for your server. It also adds the name of your server
 
+WorkShopMod: https://steamcommunity.com/sharedfiles/filedetails/?id=2208661644
 
 # Configuration file
 ```
@@ -23,6 +24,9 @@ This is a free experience/economy ui for your server. It also adds the name of y
   <ServerName>Server name here</ServerName>
 </Config>
 ```
+
+# WorkShopMod
+https://steamcommunity.com/sharedfiles/filedetails/?id=2208661644
 
 # Preview image
 https://i.imgur.com/cQdMhq0.png
