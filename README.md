@@ -1,6 +1,8 @@
 # Experience-Economy-UI
 This is a free experience/economy ui for your server. It also adds the name of your server
 
+It works with uconomy or experience
+
 WorkShopMod: https://steamcommunity.com/sharedfiles/filedetails/?id=2208661644
 
 F.Plugins Discord: https://discord.gg/8zded6r
