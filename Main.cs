@@ -1,4 +1,4 @@
-using Rocket.Core.Logging;
+﻿using Rocket.Core.Logging;
 using Rocket.Core.Plugins;
 using Rocket.Unturned;
 using Rocket.Unturned.Events;
@@ -42,14 +42,14 @@ namespace F.ExperienceUI
                 EffectManager.sendUIEffect(this.Configuration.Instance.ExperienceUI, (short)32401, player.CSteamID, true, this.Configuration.Instance.EconomySymbol + player.Experience.ToString());
             }
             else { EffectManager.sendUIEffect(this.Configuration.Instance.ExperienceUI, (short)32401, player.CSteamID, true, this.Configuration.Instance.EconomySymbol + Uconomy.Instance.Database.GetBalance(player.Id).ToString()); }
-            EffectManager.sendUIEffect(this.Configuration.Instance.ServerNameUI, (short)32403, player.CSteamID, true,  this.Configuration.Instance.ServerName.ToString());
+            EffectManager.sendUIEffect(this.Configuration.Instance.ServerNameUI, (short)32403, player.CSteamID, true, this.Configuration.Instance.ServerName.ToString());
         }
 
         private void Events_OnPlayerUpdateExperience(UnturnedPlayer player, uint experience)
         {
             EffectManager.sendUIEffect(this.Configuration.Instance.ExperienceUI, (short)32401, player.CSteamID, true, this.Configuration.Instance.EconomySymbol + player.Experience.ToString());
         }
-        
+
         private void UconomyOnBalanceUpdate(UnturnedPlayer player, decimal v)
         {
             EffectManager.sendUIEffect(this.Configuration.Instance.ExperienceUI, (short)32401, player.CSteamID, true, this.Configuration.Instance.EconomySymbol + Uconomy.Instance.Database.GetBalance(player.Id).ToString());

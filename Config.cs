@@ -1,4 +1,4 @@
-using Rocket.API;
+﻿using Rocket.API;
 
 namespace F.ExperienceUI
 {
