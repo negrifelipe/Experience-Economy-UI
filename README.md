@@ -1,4 +1,6 @@
 # Experience-Economy-UI
+![Discord](https://img.shields.io/discord/742861338233274418?label=Discord&logo=Discord) [![Github All Releases](https://img.shields.io/github/downloads/01-Feli/Experience-Economy-UI/total.svg)]()
+
 This is a free experience/economy ui for your server. It also adds the name of your server
 
 It works with uconomy or experience
